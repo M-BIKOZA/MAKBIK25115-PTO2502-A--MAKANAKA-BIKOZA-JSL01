@@ -28,6 +28,9 @@ body {
 
 header {
     display: none;
+    background-color: #fff;
+    padding: 2.4rem 1.8rem;
+
 }
 
 .column {
