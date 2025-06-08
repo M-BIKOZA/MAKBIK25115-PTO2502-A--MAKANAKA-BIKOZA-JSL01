@@ -6,8 +6,8 @@
 body {
     align-items: center;
     font-family: "Plus Jakarta Sans" sans-serif;
-  display: flex;  
-  justify-content: center;
+    display: flex;  
+    justify-content: center;
     background-color: #f4f7fd;
 }
 
@@ -128,5 +128,9 @@ header {
     .kanban-board {
         display: flex;
         flex-direction: row;
+    }
+    .column {
+        width: 280px;
+
     }
 }
