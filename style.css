@@ -27,3 +27,45 @@ body {
 header {
     display: none;
 }
+
+.column {
+    margin: 1.8rem 0;
+}
+
+.column-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.8;
+}
+
+.column-heading h3 {
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+}
+
+.to-do-dot {
+    background-color: #49c4e5;
+}
+
+.doing-dot {
+    background-color: #8471f2;
+}
+
+.done-dot {
+    background-color: #67e2ae;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.card {
+    padding: 1.2rem;
+    background-color: #fff;
+    margin-bottom: 0.9rem;
+    border-radius: 8px;
+}
