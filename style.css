@@ -99,6 +99,14 @@ header {
         display: block;
 
     }
+    .menu h4 {
+        color: #828fa3;
+        letter-spacing: 2.4px;
+        font-size: 12px;
+        margin: 3.1rem 1.4rem;
+
+}
+
     .active {
         color: #fff;
         background-color: #635fc7;
