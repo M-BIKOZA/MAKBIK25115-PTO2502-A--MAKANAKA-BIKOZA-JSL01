@@ -8,11 +8,13 @@ body {
     font-family: "Plus Jakarta Sans" sans-serif;
   display: flex;  
   justify-content: center;
+    background-color: #f4f7fd;
 }
 
 .sidebar {
     align-content: center;
     width: 100%;
+    background-color: #fff;
 }
 
 .sidebar img {
