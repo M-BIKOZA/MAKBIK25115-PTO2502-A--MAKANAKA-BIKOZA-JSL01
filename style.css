@@ -19,6 +19,7 @@ body {
 
 .sidebar img {
     height: 1.8rem;
+    margin: 1.4rem 0.6rem;
     object-fit: cover;
 }
 
