@@ -69,3 +69,51 @@ header {
     margin-bottom: 0.9rem;
     border-radius: 8px;
 }
+
+@media (min-width: 1023px) {
+    body {
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .app {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .sidebar  {
+        align-content: start;
+        height: 100vh;
+        width: 300px;
+
+    }
+    .menu {
+        display: block;
+
+    }
+    .active {
+        color: #fff;
+        background-color: #635fc7;
+        width: 276px;
+        padding: 18px 0;
+        border-radius: 0 100px 100px 0;
+        cursor: pointer;
+    
+    }
+    .main {
+        overflow: auto;
+        flex: 1;
+
+    }
+    header {
+        display: block;
+        
+    }
+    .kanban-board {
+        display: flex;
+        flex-direction: row;
+    }
+}
